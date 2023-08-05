@@ -56,7 +56,6 @@
     font-size: 64px;
     font-weight: 600;
     line-height: 72px;
-    width: 80%;
   }
 
   #inner-block{
@@ -64,7 +63,7 @@
   }
 
   #text-right-block{
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     line-height: 24px;
   }
@@ -121,6 +120,10 @@
   }
   .article-right-block{
     width: 30%;
+  }
+
+  #title-left-block{
+    width: 80%;
   }
 }
 
@@ -242,7 +245,7 @@ li:hover{
 
 .right-block p{
   color: var(--light);
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0em;
@@ -307,7 +310,7 @@ li:hover{
 }
 
 .feature p{
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0em;
@@ -347,7 +350,7 @@ li:hover{
 }
 
 .article-left-block p{
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 28px;
   letter-spacing: 0em;
