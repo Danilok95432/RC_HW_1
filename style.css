@@ -5,6 +5,10 @@
     max-width: 650px;
   }
 
+  #footer-title{
+    text-align: center;
+  }
+
   #footer-nav{
     gap: 0;
     justify-content: space-around;
@@ -41,12 +45,18 @@
   #introduce-block{
     padding: 128px 64px;
     flex-direction: row;
+    gap: 72px;
+  }
+
+  #intro-elem{
+    justify-content: center;
   }
 
   #title-left-block{
     font-size: 64px;
     font-weight: 600;
     line-height: 72px;
+    width: 80%;
   }
 
   #inner-block{
@@ -61,12 +71,13 @@
 
   #feature-list{
     flex-direction: row;
-    padding: 64px 32px;
+    padding: 64px 64px;
+    gap: 124px;
   }
 
   #article-main{
     flex-direction: row;
-    padding: 64px 32px;
+    padding: 64px 64px;
   }
 
   .article-left-block{
@@ -81,7 +92,8 @@
   }
 
   #footer-content{
-    padding: 128px 64px;
+    padding: 96px 64px;
+    gap: 64px;
   }
 
   #footer-list{
@@ -197,20 +209,18 @@ li:hover{
 .two-blocks{
   display: flex;
   flex-direction: column;
-  padding: 64px 32px;
+  padding: 48px 24px;
 }
 
 .left-block{
   width: 100%;
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 
 .right-block{
   width: 100%;
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 
@@ -228,7 +238,6 @@ li:hover{
   line-height: 48px;
   letter-spacing: 0em;
   text-align: left;
-  width: 80%;
 }
 
 .right-block p{
@@ -274,6 +283,8 @@ li:hover{
 .features-list-block{
   display: flex;
   flex-direction: column;
+  gap: 40px;
+  padding: 48px 24px;
 }
 
 .feature{
@@ -281,8 +292,7 @@ li:hover{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 30px;
-  padding: 64px 16px;
+  gap: 16px;
   max-width: 440px;
   margin: 0 auto;
 }
@@ -319,13 +329,13 @@ li:hover{
   display: flex;
   flex-direction: column;
   gap: 64px;
-  padding: 64px 16px;
+  padding: 48px 24px;
 }
 
 .article-left-block{
   display: flex;
   flex-direction: column;
-  gap: 32px;
+  gap: 40px;
 }
 
 .article-left-block h2{
@@ -396,8 +406,8 @@ li:hover{
 .footer-content{
   display: flex;
   flex-direction: column;
-  gap: 16px;
-  padding: 64px 16px;
+  gap: 40px;
+  padding: 64px 24px;
 }
 
 .footer-list{
@@ -443,7 +453,7 @@ li:hover{
   font-style: normal;
   font-weight: 700;
   line-height: 40px;
-  text-align: center;
+  text-align: left;
 }
 
 .footer-list h2{
